@@ -1,0 +1,26 @@
+[
+{
+  "dest": "St.Paul",
+  "first": "06:00",
+  "freq": "5",
+  "name": "St.Paul Passenger"
+},
+  {
+    "dest": "Chicago",
+    "first": "20:00",
+    "freq": "1440",
+    "name": "Chicago Express"
+  },
+  {
+    "dest" : "Duluth",
+    "first" : "04:00",
+    "freq" : "30",
+    "name" : "Duluth Passenger"
+  },
+ {
+    "dest" : "Minneapolis",
+    "first" : "04:00",
+    "freq" : "5",
+    "name" : "MSP Express"
+  }
+]
