@@ -42,6 +42,8 @@ $('#newTrainBtn').on('click', function(){
 	var firstTrain = $('#firstTrainInput').val().trim();
 	var frequency = $('#freqInput').val().trim();
 
+	if(trainName === "" | destination === "" | firstTrain === "" | frequency === "") return;
+
   // Creates local "temporary" object for holding train data
 	var newTrain = {
 		name: trainName,
